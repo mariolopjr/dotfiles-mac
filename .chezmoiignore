@@ -1,3 +1,4 @@
-.oh-my-zsh/cache
-bootstrap.sh
+.cache
+.oh-my-zsh/cache/**
+
 README.md

@@ -29,6 +29,12 @@ alias c!='cd ~/Code'
 # File Commands
 alias hidden='ls -a | grep "^\."'
 
+# Brew commands
+alias bd='brew bundle dump --global --force && chezmoi add -f ~/.Brewfile'
+alias bf='cme ~/.Brewfile'
+
+alias upgrade='brew update && brew upgrade && brew upgrade --cask --greedy && npm update -g'
+
 alias ctop='docker run --rm -ti \
   --name=ctop \
   -v /var/run/docker.sock:/var/run/docker.sock \
